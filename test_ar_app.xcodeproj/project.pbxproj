@@ -14,6 +14,7 @@
 		1EA6C63622AFC263006A6A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6C63522AFC263006A6A10 /* Assets.xcassets */; };
 		1EA6C63922AFC263006A6A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6C63722AFC263006A6A10 /* LaunchScreen.storyboard */; };
 		1EA6C64122AFC395006A6A10 /* black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6C64022AFC395006A6A10 /* black.mp4 */; };
+		1EC2838C22AFEAD200EBF671 /* rama2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1EC2838B22AFEAD200EBF671 /* rama2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1EA6C63822AFC263006A6A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA6C63A22AFC263006A6A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EA6C64022AFC395006A6A10 /* black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = black.mp4; sourceTree = "<group>"; };
+		1EC2838B22AFEAD200EBF671 /* rama2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rama2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1EA6C63722AFC263006A6A10 /* LaunchScreen.storyboard */,
 				1EA6C63A22AFC263006A6A10 /* Info.plist */,
 				1EA6C64022AFC395006A6A10 /* black.mp4 */,
+				1EC2838B22AFEAD200EBF671 /* rama2.mp4 */,
 			);
 			path = test_ar_app;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA6C62F22AFC262006A6A10 /* art.scnassets in Resources */,
+				1EC2838C22AFEAD200EBF671 /* rama2.mp4 in Resources */,
 				1EA6C63922AFC263006A6A10 /* LaunchScreen.storyboard in Resources */,
 				1EA6C63622AFC263006A6A10 /* Assets.xcassets in Resources */,
 				1EA6C64122AFC395006A6A10 /* black.mp4 in Resources */,
