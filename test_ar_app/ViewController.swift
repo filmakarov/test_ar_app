@@ -3,8 +3,8 @@
 //  Harry Pokker
 //
 //  Created by Bilguun Batbold on 26/3/19.
-//  Edited by fmc
 //  Copyright © 2019 Bilguun. All rights reserved.
+//  Edited by fmc for Art Project
 //
 
 import UIKit
@@ -68,7 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player.currentItem, queue: nil) { (notification) in
             player.seek(to: CMTime.zero)
             player.play()
-            print("Looping Video1")
+            print("Looping Video")
         }
         
         // set the size (just a rough one will do)
