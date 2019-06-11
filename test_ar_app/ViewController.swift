@@ -23,6 +23,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
+    // How DO I MAKE 2 FRAMES?
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -79,6 +81,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         videoNode.yScale = -1.0
         // add the video to our scene
         videoScene.addChild(videoNode)
+        
         // create a plan that has the same real world height and width as our detected image
         let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
         // set the first materials content to be our video scene
