@@ -23,8 +23,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
-    // How DO I MAKE 2 FRAMES?111
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -37,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // if there is, set the images to track
             configuration.trackingImages = trackedImages
             // at any point in time, only 1 image will be tracked
-            configuration.maximumNumberOfTrackedImages = 1
+            configuration.maximumNumberOfTrackedImages = 3
         }
         
         // Run the view's session
@@ -83,7 +81,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         videoScene.addChild(videoNode)
         
         // create a plan that has the same real world height and width as our detected image
-        let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+        // 0.8 is for the video be smaller than the frame
+        
+        let plane = SCNPlane(width: (imageAnchor.referenceImage.physicalSize.width * 0.8), height: (imageAnchor.referenceImage.physicalSize.height * 0.8))
+        
         // set the first materials content to be our video scene
         plane.firstMaterial?.diffuse.contents = videoScene
         // create a node out of the plane
